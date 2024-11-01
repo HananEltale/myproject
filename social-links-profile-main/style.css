@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+   --green: hsl(75, 94%, 57%);
+   --White:hsl(0, 0%, 100%);
+   --grey7: hsl(0, 0%, 20%);
+   --grey8:hsl(0, 0%, 12%);
+   --grey9: hsl(0, 0%, 8%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 14px;
+}
+body
+{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey9);
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--grey8);
+    border-radius: 10px;
+    height: auto;
+    margin: 3rem;
+    padding:20px ;
+}
+
+.container img{
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.container h3{
+    color: var(--White);
+    font-size: 24px;
+    margin-bottom:0.3rem ;
+
+}
+
+.container #location{
+    color:var(--green);
+    margin-bottom: 1rem;
+}
+
+.paragraph{
+    color: var(--White);
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+}
+
+.container ul{
+    list-style-type: none;
+    text-align: center;
+    
+     
+}
+
+.container ul li {
+    margin: 0.6rem 0;
+}
+
+.container ul button{
+   border: none;
+   display: block;
+   width: 100%;
+   background-color: var(--grey7); 
+   color: var(--White);
+   font-size: 2px;
+   font-weight: 100;
+   border-radius: 5px;
+   padding:10px 100px;
+
+}
+
+
+.container ul button:hover{
+     background-color: var(--green);
+     color: var(--grey9);
+     cursor: pointer;
+      
+      
+}
+
+@media (min-width: 375px){
+    
+}
